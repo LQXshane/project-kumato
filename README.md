@@ -22,9 +22,9 @@ The smart contract is deployed to Goerli Testnet [here](https://goerli.etherscan
 
     * Signing and deploying Smart Contract
 
-    * Upload artwork to IPFS via NFT.STORAGE
+    * Upload artwork to IPFS via [NFT.STORAGE](https://nft.storage/) and [Filecoin](https://filecoin.io/)
 
-    * Sign vouchers in pre-sale event via Coinbase Wallet
+    * Sign vouchers in pre-sale event via [Coinbase Wallet](https://www.coinbase.com/wallet)
 
     * (Buyers) redeem vouchers, signature and transactions are validated over the ethereum network 
 
@@ -45,9 +45,9 @@ The application framework handles (a lightweight) smart contract development and
 
 ### Frontend: React Application [Readme](/react-app/README.md)
 
-* Solidity: [Openzeppelin](https://www.openzeppelin.com/) Truffle + Ganache
-* IFPS powered by [NFT.STORAGE](https://nft.storage/) and [Filecoin](https://filecoin.io/)
-* Crypto Wallet Connection to [Coinbase Wallet](https://www.coinbase.com/wallet)
+* Solidity: Openzeppelin Truffle + Ganache
+* IFPS powered by NFT.STORAGE
+* Crypto Wallet Connection to Coinbase Wallet
 * React JS powered by Gatsbby + Sanity Studio
 * Docker
 
