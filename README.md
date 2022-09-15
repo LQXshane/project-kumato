@@ -41,7 +41,7 @@ The smart contract is deployed to Goerli Testnet [here](https://goerli.etherscan
 
 ## The Stack, Explained
 
-The application framework handles (a lightweight) smart contract development and a containerized web ap. It also connects to a python service that is the core of NFT artwork. 
+The application framework handles (a lightweight) smart contract development and a containerized web application. It also connects to a python service that is the core of NFT artwork. 
 
 ### Smart Contract [Readme](/react-app/truffle/README.md)
 
