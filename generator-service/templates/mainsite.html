@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kumato Playground</title>
+</head>
+<style> body{background-color: dimgray;} </style>
+<body align="center">
+    <br><br><br><br><br><br>
+    <b><font size="15" face="Helvetica" color="#fffafa"> - WELCOME TO KUMATO PLAYGROUND -</font></b>
+    <br><br>
+    <img align="center" src="{{ url_for('static', path='/sticker.png') }}", width = 300, height = 300>
+    <br><br>
+    <a style="color:#fffafa;text-decoration:None" href = '/getgen0?amount=8'> GO  TO  GEN0  GENERATOR  >>> </a></font>
+    <br><br>
+    <br>
+    <form action="/postgethybrid" method="post">
+    <font style="color:#fffafa;text-decoration:None">&nbsp;NFT1&nbsp;&nbsp;&nbsp;</font><input type="number" name="NFT1" placeholder="ID, e.g. 1" value="" required style="width:70px"/>
+    <font style="color:#fffafa;text-decoration:None">&nbsp;NFT2&nbsp;&nbsp;&nbsp;</font><input type="number" name="NFT2" placeholder="ID, e.g. 6" value="" required style="width:70px"/>
+        <br><br>
+    <input style="font-family:'Times New Roman';;font-size:16px;color:#fffafa;border:None;background-color:transparent;" type="submit" value="START TO HYBRID >>>">
+    </form>
+    <br><br><br><br>
+    <font color="#fffafa">Copyright ©2022</font>
+</body>
+</html>

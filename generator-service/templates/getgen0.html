@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Gen0 NFTs</title>
+</head>
+<style> body{background-color: dimgray;} </style>
+<body>
+    <h1 style="color:#fffafa"> Kumato: Get Gen0 NFTs </h1>
+    <h2 style="color:#fffafa"> Congratulations! You've generated {{amount}} NFTs. </h2>
+    <b style="color:#fffafa">You can check images by using:</b>
+    <br><br>
+    <font color="#fffafa"> 127.0.0.1:8000/images/{filename} </font>
+    <br><br>
+    <font color="#fffafa"> e.g. <a href = '/images/1.png'> 127.0.0.1:8000/images/1.png </a></font>
+    <br><br>
+    <img src="{{ url_for('images', path='/1.png') }}", width = 300, height = 300>
+    <br><br>
+    <b style="color:#fffafa">You can check metadata by using:</b>
+    <br><br>
+    <font color="#fffafa"> 127.0.0.1:8000/metadata/{filename} </font>
+    <br><br>
+    <font color="#fffafa"> e.g. <a href = '/metadata/1.json'> 127.0.0.1:8000/metadata/1.json </a> </font>
+    <br><br>
+
+</body>
+</html>

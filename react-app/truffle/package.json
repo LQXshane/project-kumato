@@ -1,0 +1,25 @@
+{
+  "name": "truffle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "Shay Lin",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "@openzeppelin/contracts-upgradeable": "^4.7.3",
+    "fd": "^0.0.3",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.0.14",
+    "chai": "^4.3.6",
+    "hardhat": "^2.11.1"
+  }
+}
