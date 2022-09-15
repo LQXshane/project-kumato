@@ -34,7 +34,7 @@ The smart contract is deployed to Goerli Testnet [here](https://goerli.etherscan
 
     * Hybrid between two tomatoes
 
-    * Change of disease and time to reproduce
+    * Chance of disease and time to reproduce
 
     * Compatibility checks for various traits
 
@@ -42,6 +42,13 @@ The smart contract is deployed to Goerli Testnet [here](https://goerli.etherscan
 ## The Stack, Explained
 
 The application framework handles (a lightweight) smart contract development and a containerized web ap. It also connects to a python service that is the core of NFT artwork. 
+
+### Smart Contract [Readme](/react-app/truffle/README.md)
+
+* Node JS 16
+* Solidity >= 0.8.0
+* Truffle v5.5.27 
+* Ganache v7.4.0
 
 ### Frontend: React Application [Readme](/react-app/README.md)
 
