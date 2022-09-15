@@ -7,6 +7,9 @@ Project Kumato is a Ethereum based Crypto Farming experience. In this alpha rele
 
 ----
 ##  Try it! [kumato.xyz](https://kumato.xyz)
+
+The smart contract is deployed to Goerli Testnet [here](https://goerli.etherscan.io/address/0x68a43ba8464af66da6d562ef209d4123e2ee9d55). Click to see past transactions.
+
 ----
 
 ## Highlights
